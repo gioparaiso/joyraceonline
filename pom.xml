@@ -15,7 +15,7 @@
 		<spring.version>4.0.3.RELEASE</spring.version>
 		<cglib.version>2.2.2</cglib.version>
 		<mysql.version>5.1.31</mysql.version>
-		<hibernate.version>4.3.6.FINAL</hibernate.version>
+		<hibernate.version>4.3.6.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
