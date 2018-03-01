@@ -1,7 +1,7 @@
 jdbc.driverClassName = com.mysql.jdbc.Driver
-jdbc.url = jdbc:mysql://{OPENSHIFT_MYSQL_DB_HOST}:{OPENSHIFT_MYSQL_DB_PORT}/joyracedb
-jdbc.username = {OPENSHIFT_MYSQL_DB_USERNAME}
-jdbc.password = {OPENSHIFT_MYSQL_DB_PASSWORD}
+jdbc.url = jdbc:mysql://127.0.0.1:3306/joyracedb
+jdbc.username = {MYSQL_USER}
+jdbc.password = {MYSQL_PASSWORD}
 hibernate.dialect = org.hibernate.dialect.MySQLDialect
 hibernate.show_sql = true
 hibernate.format_sql = true
