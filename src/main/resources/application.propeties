@@ -1,1 +1,7 @@
-gio
+jdbc.driverClassName = com.mysql.jdbc.Driver
+jdbc.url = jdbc:mysql://mysql:3306/joyracedb
+jdbc.username = user7CB
+jdbc.password = LpkN2LufloqdyJPy
+hibernate.dialect = org.hibernate.dialect.MySQLDialect
+hibernate.show_sql = true
+hibernate.format_sql = true
