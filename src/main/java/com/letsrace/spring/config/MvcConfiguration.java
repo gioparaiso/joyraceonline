@@ -86,6 +86,8 @@ public class MvcConfiguration extends WebMvcConfigurerAdapter {
 		dataSource.setUsername("user7CB");
 		dataSource.setPassword("LpkN2LufloqdyJPy");
 
+		System.out.println("gio user7CB");
+		
 // 		dataSource.setDriverClassName(this.environment
 // 				.getRequiredProperty("jdbc.driverClassName"));
 // 		dataSource.setUrl(this.environment.getRequiredProperty("jdbc.url"));
