@@ -1,7 +1,7 @@
 jdbc.driverClassName = com.mysql.jdbc.Driver
-jdbc.url = jdbc:mysql://{MYSQL_SERVICE_HOST}:{MYSQL_SERVICE_PORT}/{MYSQL_DATABASE}
-jdbc.username = {MYSQL_USER}
-jdbc.password = {MYSQL_PASSWORD}
+jdbc.url = jdbc:mysql://${MYSQL_SERVICE_HOST}:${MYSQL_SERVICE_PORT}/${MYSQL_DATABASE}
+jdbc.username = ${MYSQL_USER}
+jdbc.password = ${MYSQL_PASSWORD}
 hibernate.dialect = org.hibernate.dialect.MySQLDialect
 hibernate.show_sql = true
 hibernate.format_sql = true
